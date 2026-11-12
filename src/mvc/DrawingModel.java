@@ -4,13 +4,13 @@ import java.util.ArrayList;
 
 public class DrawingModel {
 	
-	private ArrayList<Point> shapes = new ArrayList<>();
+	private ArrayList<Shape> shapes = new ArrayList<>();
 	
-	public void add(Point p) {
+	public void add(Shape p) {
 		shapes.add(p);
 	}
 	
-	public void remove(Point p) {
+	public void remove(Shape p) {
 		shapes.remove(p);
 	}
 	
@@ -18,7 +18,7 @@ public class DrawingModel {
 		shapes.get(index);
 	}
 	
-	public ArrayList<Point> getShapes(){
+	public ArrayList<Shape> getShapes(){
 		return shapes;
 	}
 
