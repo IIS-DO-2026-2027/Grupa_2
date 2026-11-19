@@ -16,7 +16,8 @@ public class DrawingFrame extends JFrame {
 		view.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent e) {
-				controller.addShape(e);
+				//controller.addShape(e);
+				controller.addComposite(e);
 			}
 		});
 		
